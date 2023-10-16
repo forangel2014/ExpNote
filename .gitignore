@@ -1,0 +1,14 @@
+__pycache__/
+result.md
+idea.md
+exp/
+datasets/*
+dataloader/*
+!clutrr/
+!clutrr.py
+!mets/
+!mets.py
+!emoji/
+!emoji.py
+!lets/
+!lets.py
