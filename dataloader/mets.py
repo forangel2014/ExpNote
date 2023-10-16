@@ -51,8 +51,8 @@ SYSTEM: Identify an entity of type vaccine, disease, drug, or symptom in this te
 @pattpattpattyo @AaronSuttles @fluffopotamus88 Pneumonia due to COVID just got intubated check up on @RandRCigars for updates as well.
 SYSTEM: Here are several possible relevant experience:
 SYSTEM: "pneumonia" is a disease.
-SYSTEM: "COVID" is not a disired entity.
-ASSISTANT: THINK[Based on these experiences, "pneumonia" is a disease, "COVID" is not a disired entity. So the answer is (pneumonia, disease).]
+SYSTEM: "COVID" is not a desired entity.
+ASSISTANT: THINK[Based on these experiences, "pneumonia" is a disease, "COVID" is not a desired entity. So the answer is (pneumonia, disease).]
 SYSTEM: OK.
 ASSISTANT: ANSWER[(pneumonia, disease)]
 """
@@ -79,7 +79,7 @@ Your answer is "(unknown pneumonia, disease)", the correct answer is "(pneumonia
 SYSTEM: Identify an entity of type vaccine, disease, drug, or symptom in this text. Returns in the format of (entity, type). Do not include "covid" in the answer.
 @PepeMatter I want numbers on whether pedophilia is a worse epidemic than Covid . Give me THAT data Joe .
 Your answer is "(Covid, disease)", the correct answer is "(pedophilia, disease)".
-ASSISTANT: THINK[Based on these experiences, "pneumonia" is a disease, "COVID" is not a disired entity. So the answer is (pneumonia, disease).]
+ASSISTANT: THINK[Based on these experiences, "pneumonia" is a disease, "COVID" is not a desired entity. So the answer is (pneumonia, disease).]
 SYSTEM: OK.
 ASSISTANT: ANSWER[(pneumonia, disease)]
 SYSTEM: Your answer is correct.
@@ -144,7 +144,7 @@ SYSTEM: Identify an entity of type vaccine, disease, drug, or symptom in this te
 SYSTEM: Here are several possible relevant experience:
 SYSTEM: Pneumonie Synonym pneumonia. pneumonia IsA respiratory disease
 SYSTEM: intubated RelatedTo intubate. unintubated DerivedFrom intubated. intubated FormOf intubate. intubated ExternalURL intubated
-ASSISTANT: Based on these experiences, "pneumonia" is a disease, "COVID" is not a disired entity. So the answer is (pneumonia, disease).
+ASSISTANT: Based on these experiences, "pneumonia" is a disease, "COVID" is not a desired entity. So the answer is (pneumonia, disease).
 """
 
 
