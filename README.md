@@ -1,5 +1,5 @@
 # ExpNote
-This is the repository of ExpNote: Black-box Large Language Models are Better Task Solvers with Experience Notebook (EMNLP 2023 findings)
+This is the repository of [ExpNote: Black-box Large Language Models are Better Task Solvers with Experience Notebook](https://arxiv.org/abs/2311.07032) (EMNLP 2023 findings)
 
 ## create virtual environment
 ```
